@@ -1,0 +1,19 @@
+@keyframes pulse {
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.Stage {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat;
+  background-image: url(../images/denim.jpg);
+  animation: pulse 5s infinite;
+}

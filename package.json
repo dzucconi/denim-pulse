@@ -1,26 +1,15 @@
 {
-  "browserify": {
-    "transform": [
-      "coffeeify"
-    ]
+  "name": "denim-pulse",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dzucconi/denim-pulse.git",
+  "author": "dzucconi <mail@damonzucconi.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --open"
   },
   "devDependencies": {
-    "browser-sync": "~0.8.2",
-    "browserify": "~3.36.0",
-    "coffeeify": "~0.6.0",
-    "connect": "~2.14.3",
-    "gulp-changed": "~0.3.0",
-    "gulp-notify": "~1.2.4",
-    "gulp-open": "~0.2.8",
-    "gulp-stylus": "~1.0.2",
-    "gulp": "~3.7.0",
-    "vinyl-source-stream": "~0.1.1",
-    "watchify": "~0.10.1",
-    "gulp-util": "~2.2.14",
-    "pretty-hrtime": "~0.2.1",
-    "nib": "~1.0.2"
-  },
-  "dependencies": {
-    "jquery": "~2.1.1"
+    "parcel": "^1.12.3"
   }
 }
